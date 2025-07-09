@@ -1,10 +1,10 @@
-# 🚌 Redbus Data Hackathon 2025 – Demand Forecasting Project
+# Redbus Data Hackathon 2025 – Demand Forecasting Project
 
-## 📊 Overview
+## Overview
 
 This repository contains our solution for the **Redbus Data Hackathon 2025**, focused on forecasting the **number of travellers for a specific journey date**, 15 days in advance. Our team ranked **52 out of 694 participants**, showcasing our approach's effectiveness in tackling this real-world forecasting challenge in the transportation industry.
 
-## 🧠 Problem Statement
+## Problem Statement
 
 In the bus transportation industry, less than 20% of bookings are made well in advance. This makes demand forecasting particularly challenging due to sparse early signals. Accurate forecasts play a vital role in shaping:
 
@@ -16,7 +16,7 @@ The hackathon challenged participants to **develop machine learning models that 
 
 ---
 
-## 💡 Our Approach
+## Our Approach
 
 We developed a modular and extensible pipeline built around the `BusBookingPredictor` class, handling all stages from data loading to ensemble prediction.
 
@@ -60,7 +60,7 @@ We developed a modular and extensible pipeline built around the `BusBookingPredi
 ├── bus_booking_predictor.py     # Contains the BusBookingPredictor class
 ├── main.py                      # The main script (code provided above)
 ├── README.md                    # This file
-🚀 How to Run
+How to Run
 Clone this repository:
 
 bash
@@ -93,31 +93,22 @@ Evaluation Metric: [RMSE]
 
 Public Score: [617]
 
-# 📈 Top 20 Features (Sample)
-# Feature	Importance
-# days_to_departure	High
-# total_bookings_last_7d	High
-# avg_ticket_price	Medium
-# srcid, destid	Medium
-# day_of_week, holiday	Medium
 
-# (Note: Actual feature importance is computed in the script and saved in importance_df)
-
-🧠 Learnings
+Learnings
 Handling sparse time series data with low early signal.
 
 Balancing overfitting vs underfitting in time-sensitive data.
 
 Applying ensemble learning to improve prediction robustness.
 
-🏆 Credits
+Credits
 Developed by: [Strive in Dark Team / Durga Ram Prasad Bhandari, Irum Hussain , Sai Kumar Bashetti ]
 
 Contact: 
 
 Rank Achieved: Top 8% globally (52/694)
 
-📬 Contact & Opportunities
+Contact & Opportunities
 If you're interested in collaborating, feel free to connect or drop a message!
 
 LinkedIn: [https://www.linkedin.com/in/irum-hussain-4b3957140/]
